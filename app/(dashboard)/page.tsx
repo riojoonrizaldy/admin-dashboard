@@ -20,7 +20,7 @@ export default async function ProductsPage({
     <Tabs defaultValue="all">
       <div className="flex items-center">
         <TabsList>
-          <TabsTrigger value="all">All</TabsTrigger>
+          <TabsTrigger value="all">Alls</TabsTrigger>
           <TabsTrigger value="active">Active</TabsTrigger>
           <TabsTrigger value="draft">Draft</TabsTrigger>
           <TabsTrigger value="archived" className="hidden sm:flex">
